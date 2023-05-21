@@ -6,6 +6,8 @@ import { SignalsVsBehaviorsubjectsComponent } from './signals-vs-behaviorsubject
 import { BehaviorsubjectLifecycleComponent } from './behaviorsubject-lifecycle/behaviorsubject-lifecycle.component';
 import { SignalsDiamondProblemComponent } from './diamond-problem/signals-diamond-problem/signals-diamond-problem.component';
 import { BehaviorsubjectDiamondProblemComponent } from './diamond-problem/behaviorsubject-diamond-problem/behaviorsubject-diamond-problem.component';
+import { SignalSideEffectComponent } from './side-effects/signal-side-effect/signal-side-effect.component';
+import { BehaviorsubjectSideEffectComponent } from './side-effects/behaviorsubject-side-effect/behaviorsubject-side-effect.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { BehaviorsubjectDiamondProblemComponent } from './diamond-problem/behavi
     SignalsVsBehaviorsubjectsComponent,
     BehaviorsubjectLifecycleComponent,
     SignalsDiamondProblemComponent,
-    BehaviorsubjectDiamondProblemComponent
+    BehaviorsubjectDiamondProblemComponent,
+    SignalSideEffectComponent,
+    BehaviorsubjectSideEffectComponent
   ],
   imports: [
     BrowserModule
